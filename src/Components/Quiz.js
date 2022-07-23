@@ -34,9 +34,9 @@ function Quiz() {
             </div>
 
             {currQuestion == Questions.length - 1 ? (
-                <button onClick={finishQuiz}> Finish Quiz </button>
+                <button className='btn-continue' onClick={finishQuiz}> Finish Quiz </button>
             ) : (
-                <button onClick={nextQuestion}>Next Question</button>
+                <button className='btn-continue' onClick={nextQuestion}>Next Question</button>
             )}
            
         </div>

@@ -12,12 +12,14 @@
   width: 500px;
   height: 500px;
   border-radius: 10px;
-  background-color: lightseagreen;
+  background-color: #8D8DAA;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
+
 
 .Menu button,
 .Quiz button,
@@ -29,12 +31,23 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+  
 }
+
+.Quiz .options button:focus{
+  border: 2px solid black;
+
+}
+
 
 .Menu, .Quiz {
   color: white;
 }
 
+.Quiz .btn-continue {
+  margin-top: 25px;
+  background-color: #bcbcc8;
+}
 .options {
   width: 100%;
   display: flex;
